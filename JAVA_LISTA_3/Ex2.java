@@ -68,6 +68,7 @@ public class Ex2
 			}
 		}
 
-		System.out.println("\nb) Maior nota informada: " + maior + "\n   Informada na posição: (" + maior_nota_indexes + ") do vetor.");			
+		System.out.println("\nb) Maior nota informada: " + maior + 
+				   "\n   Informada na posição: (" + maior_nota_indexes + ") do vetor.");			
 	}
 }
