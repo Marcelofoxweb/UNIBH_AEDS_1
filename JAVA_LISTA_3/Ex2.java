@@ -1,9 +1,9 @@
 /************************************************************************************************
- * Exercício 2:                                                                                 *
- * 	Faça um programa em Java para ler um conjunto de 150 notas dos alunos de uma disciplina;    *
- * 		a) armazená-lo em um vetor NOTAS                                                        * 
- * 		b) Imprimir a maior nota e a posição que ocupam no vetor                                *
- *  (supor que há empates).                                                                     *
+ * Exercï¿½cio 2:                                                                                 *
+ * 	Faï¿½a um programa em Java para ler um conjunto de 150 notas dos alunos de uma disciplina;    *
+ * 		a) armazenï¿½-lo em um vetor NOTAS                                                        * 
+ * 		b) Imprimir a maior nota e a posiï¿½ï¿½o que ocupam no vetor                                *
+ *  (supor que hï¿½ empates).                                                                     *
  ************************************************************************************************/
 
 package com.lista3_vetor;
@@ -15,7 +15,7 @@ public class Ex2
 	public static void main(String[] args) 
 	{
 
-// 1º Passo: Informar a quantidade de índices para o vetor.
+// 1ï¿½ Passo: Informar a quantidade de ï¿½ndices para o vetor.
 		
 		
 	    int n;
@@ -25,14 +25,14 @@ public class Ex2
 	    System.out.printf("\n");
 
 	    
-// 2º Passo:  Para informar a nota dos alunos e gerar os elementos no vetor. 
+// 2ï¿½ Passo:  Para informar a nota dos alunos e gerar os elementos no vetor. 
 
 		int notas[] = new int[n];
 		int i = 0;
 
 	    for(i = 0; i < n; i++)
 		{
-		     System.out.printf("Informe a nota do %2dº aluno de %d: ",(i+1), n);
+		     System.out.printf("Informe a nota do %2dï¿½ aluno de %d: ",(i+1), n);
 		     notas[i] = ler.nextInt();
 		}
 
@@ -45,7 +45,7 @@ public class Ex2
 		}
 
 		
-// 3º Passo: Para verificar qual é a maior nota e a posição correspondente:
+// 3ï¿½ Passo: Para verificar qual ï¿½ a maior nota e a posiï¿½ï¿½o correspondente:
 		int maior;
 		
 		maior = notas[0];
@@ -59,7 +59,7 @@ public class Ex2
 		}
 			
 		
-// 4º Passo: Verificar as posições que a maior nota é armazenada no vetor.		
+// 4ï¿½ Passo: Verificar as posiï¿½ï¿½es que a maior nota ï¿½ armazenada no vetor.		
 		String maior_nota_indexes = " ";
 		
 		for(int j = 0; j < notas.length; j++){
@@ -68,6 +68,6 @@ public class Ex2
 			}
 		}
 
-		System.out.println("\nb) A maior nota digitada foi: " + maior + "\n   Informada na posicao: (" + maior_nota_indexes + ") do vetor.");			
+		System.out.println("\nb) Maior nota informada: " + maior + "\n   Informada na posiÃ§Ã£o: (" + maior_nota_indexes + ") do vetor.");			
 	}
 }
